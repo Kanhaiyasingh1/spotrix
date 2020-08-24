@@ -1,0 +1,9 @@
+
+1) unzip the file.
+2) setup the env file-->Database name-blog
+3) migrate the table.
+4) write command --> php artisan queue:work (in command promt)
+5) open link ---> http://localhost/blog/public/upload/create (in case of localhost) if in server than change localhost to server name.
+6) upload the big file ** it take some time as soon as queue start Processing it redirect to a page where you see the data just reload that page after
+   5 or 10 sec it start processing.
+
